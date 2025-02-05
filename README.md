@@ -2,11 +2,6 @@
 
 ## TUTORIAL : ##
 
-Create screen :
-```
-screen -S silentprotocol
-```
-
 copy this to install Python3 Dll.
 ```
 sudo apt update && sudo apt upgrade -y
@@ -24,12 +19,18 @@ go to folder bot :
 ```
 cd silent-protocol
 ```
-
+Create screen :
+```
+screen -S silentprotocol
+```
 create VENV :
 ```
 python3 -m venv venv
 source venv/bin/activate
 ```
+Edit File token.txt:
+```
+nano tokens.txt
 
 install requirements :
 ```
@@ -43,4 +44,4 @@ And after done, running bot :
 python3 bot.py
 ```
 
-# DONE , Dont forget subscribe SHARE IT HUB. in Telegram & Youtube Channel
+# DONE 
